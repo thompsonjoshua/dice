@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dicee</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Refresh Me</h1>
+
+    <!-- When viewed on mobile device, play button appears for added convenience to refresh the page -->
+    <button class="play-button" onClick="window.location.reload();">Play!</button>
+    <br />
+
+    <div class="dice responsive">
+      <p>Player 1</p>
+      <img class="img1" src="images/dice6.png">
+    </div>
+
+    <div class="dice responsive">
+      <p>Player 2</p>
+      <img class="img2" src="images/dice6.png">
+    </div>
+
+  </div>
+
+  <script src="index.js" charset="utf-8"></script>
+
+</body>
+
+<footer>
+  <a href="https://www.IslandStart.com" target="_blank">www 🎲 IslandStart 🎲 com</a>
+  <!--
+    Developed by Joshua Thompson on September 14, 2020.
+    The design is based on Angela Yu's "The Complete 2020 Web Development Bootcamp" project.
+    Most of the html and CSS were already provided since this lesson was focused on JavaScript work on the Document Object Model, which I provided myself.
+    Within the HTML and CSS, I:
+      changed the colors, dice images, emoji images, and footer.
+      added the media query and all associated features as well as the random rotation angle of the dice.
+  -->
+</footer>
+
+</html>
